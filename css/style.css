@@ -45,9 +45,33 @@
     box-sizing: border-box;
 }
 
+
+ /* Gallery styles*/
+ #Gallery{
+     margin: auto;
+     width: 90%;
+     list-style: none;
+     padding: 20px; 
+     box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+ }
+
+ #Gallery li{
+     margin: 5px;
+ }
+
+ #Gallery img{
+     width: 150px;
+     height: 100px;
+ }
+
 body{
     -webkit-font-smoothing:antialiased;
-    font-family: "Raleway-regular";
+
 }
 .container {
     width:100%;
@@ -189,6 +213,13 @@ body{
 	margin: auto;
 	padding: 0;
 }
+
+#table{
+    display: flex;
+    justify-content: center;
+}
+
+
 table {
     font-family: "Open Sans", sans-serif;
     border-collapse: collapse;
