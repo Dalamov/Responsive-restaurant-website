@@ -169,8 +169,6 @@ body{
       max-width: 1152px;
     }
   }
- 
-
 
   .main-logo {
     max-width: 2rem;
@@ -523,9 +521,6 @@ header.hero p{
     background:var(--heaven);
     color:var(--primary); 
     border:1px solid var(--primary);
-}
-.btn-secondary a{
-    color: white;
 }
 .btn-secondary{
     background:var(--secondary);
@@ -906,12 +901,13 @@ section.contact-us .contact-info > div > div > div span:first-child{
     margin-bottom:0.25rem;
 }
 .food iframe{
+    
     box-sizing: border-box;
-    display: flex;
     margin-top: 50px;
     margin-right: 200px;
-    }
 
+
+}
 footer{
     background:var(--footer);
     padding:4rem 0;
@@ -919,7 +915,6 @@ footer{
 footer .container{
     display:flex;
     color:var(--pure);
-    font-family: "Raleway-bold";
 }
 
 footer .box{
